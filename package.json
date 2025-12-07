@@ -1,9 +1,14 @@
 {
   "name": "@physmodo-git/fizzy-to-phys",
   "version": "1.0.1",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
