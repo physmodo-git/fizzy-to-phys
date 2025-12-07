@@ -9,7 +9,7 @@ export interface IProtocolExerciseModel {
   updated_at: string;
   is_active: boolean;
   protocolExerciseEquipment?: IProtocolExerciseEquipmentModel[];
-  protocolExerciseFocusAreas?: IProtocolExerciseToFocusAreaModel[];
+  protocolExerciseFocusAreas?: IProtocolExerciseFocusAreaModel[];
   protocolExerciseLibrarySource?: IProtocolExerciseLibrarySourceModel;
 }
 
