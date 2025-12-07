@@ -18,6 +18,12 @@ export interface IProtocolExerciseEquipmentModel {
   name: string;
 }
 
+export interface IExerciseQuery {
+  search: string;
+  focusAreaIds: number[];
+  equipmentIds: number[];
+}
+
 export interface IProtocolExerciseToFocusAreaModel {
   exercise_id: string;
   focus_area_id: number;
