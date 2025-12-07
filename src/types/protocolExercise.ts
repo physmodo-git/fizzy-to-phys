@@ -29,6 +29,16 @@ export interface IProtocolExerciseToFocusAreaModel {
   focus_area_id: number;
 }
 
+export interface IProtocolExerciseFocusAreaModel {
+  id: number;
+  name: string;
+}
+
+export interface IProtocolExerciseToEquipmentModel {
+  exercise_id: string;
+  equipment_id: number;
+}
+
 export interface IProtocolExerciseLibrarySourceModel {
   id: number;
   name: string;
