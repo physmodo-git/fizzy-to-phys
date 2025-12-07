@@ -18,7 +18,7 @@ export interface IProtocolExerciseEquipmentModel {
   name: string;
 }
 
-export interface IExerciseQuery {
+export interface IProtocolExerciseQuery {
   search: string;
   focusAreaIds: number[];
   equipmentIds: number[];
