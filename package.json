@@ -1,12 +1,15 @@
 {
-  "name": "fizzy-to-phys",
+  "name": "@physmodo-git/fizzy-to-phys",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "description": "",
   "devDependencies": {
     "typescript": "^5.9.3"
