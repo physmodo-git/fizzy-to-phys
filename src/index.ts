@@ -1,1 +1,1 @@
-export * from "./types/protocolExercise";
+export * from "./types/protocols";
