@@ -51,6 +51,7 @@ export interface ICustomProgramTagModel {
 }
 export interface ICustomProtocolTagModel {
   id: string;
+  name: string;
   protocol_id: string;
   created_by_user_id: string;
   created_at: string;
