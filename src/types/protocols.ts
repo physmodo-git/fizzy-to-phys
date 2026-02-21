@@ -45,12 +45,14 @@ export interface ICompletedProtocolModel {
 
 export interface ICustomProgramTagModel {
   id: string;
+  name: string;
   program_id: string;
   created_by_user_id: string;
   created_at: string;
 }
 export interface ICustomProtocolTagModel {
   id: string;
+  name: string;
   protocol_id: string;
   created_by_user_id: string;
   created_at: string;
